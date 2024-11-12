@@ -1,0 +1,154 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Sign Up Page Styling */
+.signup-body {
+    background-color: #1E1F29;
+    color: #FFFFFF;
+}
+
+.signup-container {
+    text-align: center;
+    background-color: #F53333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #444;
+}
+
+/* Home Page Styling */
+.home-body {
+    background-color: #2F2D46;
+    color: #FFFFFF;
+}
+
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #3A2E66;
+}
+
+.user-button {
+    background-color: #ffffff;
+    border: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.home-main {
+    padding: 20px;
+    text-align: center;
+}
+
+.route-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.route-card {
+    background-color: #444;
+    color: #FFF;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.search-form input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #6C5B7B;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.book-trip {
+    padding: 15px 30px;
+    background-color: #6C5B7B;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Footer Styling */
+.home-footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E1F29;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.home-footer button {
+    padding: 10px 20px;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}
+
+.home-footer button:nth-child(1) {
+    background-color: #BCCF03;
+}
+
+.home-footer button:nth-child(2) {
+    background-color: #F53333;
+}
+
+.home-footer button:nth-child(3) {
+    background-color: #BCCF03;
+}
