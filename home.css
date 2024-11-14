@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2F2D46;
+    color: #FFFFFF;
+    background-image: DALL·E 2024-10-23 20.31.17 - A wireframe design for a public transport website with a Kenyan ghetto theme, featuring graffiti elements but without any background imagery. The desi;
+}
+
+/* Header styling */
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #3A2E66;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.home-header h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.user-button {
+    background-color: #ffffff;
+    border: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Navigation styling */
+.home-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.booking.button, .contact-link {
+    background-color: #6C5B7B;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.booking.button:hover, .contact-link:hover {
+    background-color: #5A4B66;
+}
+
+/* Main content styling */
+.home-main {
+    padding: 20px;
+    text-align: center;
+}
+
+.route-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.route-section h1 {
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+}
+
+#trackingInfo p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.track-button {
+    padding: 10px 20px;
+    background-color: #F53333;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.track-button:hover {
+    background-color: #D32F2F;
+}
+
+.book-trip {
+    padding: 15px 30px;
+    background-color: #6C5B7B;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.book-trip:hover {
+    background-color: #5A4B66;
+}
+
+/* Footer styling */
+.home-footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E1F29;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-button {
+    padding: 10px 20px;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-button:nth-child(1) {
+    background-color: #BCCF03;
+}
+
+.footer-button:nth-child(2) {
+    background-color: #F53333;
+}
+
+.footer-button:nth-child(3) {
+    background-color: #BCCF03;
+}
+
+.footer-button:hover {
+    opacity: 0.9;
+}
+

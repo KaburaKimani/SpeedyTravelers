@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2F2D46;
+    color: #FFFFFF;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 0.1px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+}
+
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #F53333;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1.5px solid white;
+    text-align: center;
+    margin-inline: auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+}
+
+.logo {
+    display: block;
+    width: 13%;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.signup-form {
+    padding: 40px;
+    border-radius: 8px;
+    margin: 30px 0 30px 0;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #444;
+}
